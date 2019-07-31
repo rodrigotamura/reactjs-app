@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
+import './styles.css';
 
 export default class main extends Component {
 
@@ -33,6 +34,8 @@ export default class main extends Component {
     }
 
     render() {
+        const { products } = this.state;
+
         /**
          * Note que ao executar o app mostrara 0 e depois vai para o numero de produtos.
          * Isso porque o método render() ficará escutando o objeto state.
@@ -44,8 +47,12 @@ export default class main extends Component {
         // o proximo return delcaramos varias linhas no return usando parenteses
         return (
             <div className="product-list">
-                {this.state.products.map(product => (
-                    <h2 key={product._id}>{product.title}</h2>
+                {products.map(product => (
+                    <article key={product._id}>
+                        <strong>{product.title}</strong>
+                        <p>{product.description}</p>
+                        <a href="">Acessar</a>
+                    </article>
                 ))}
             </div>
         )
