@@ -1,0 +1,12 @@
+Para implementar a navegação vamos instalar uma nova dependência:
+> yarn add react-router-dom
+
+Vamos criar o arquivo responsável pela navegação ./src/routes.js
+
+Logo após vamos importar o routes.js dentro do App.js e inserir o elemento de router dentro da view.
+
+===========================================
+
+Uma vez importado e configurado o Router, vamos fazer com que os links funcionem na forma adequada.
+
+No componente em que haverá o link, vamos importar o Link do react-router-dom 

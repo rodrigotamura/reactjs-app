@@ -1,0 +1,16 @@
+======== SERVICES ==========================
+
+Em ./src/services ficarão os scripts que farão transações de dados externos, como a API.
+O arquivo api.js serve somente para fazer a conexão com o API.
+
+========COMPONENTES=========================
+
+Então, dentro da pasta src ficarão nossos arquivos que iremos desenvolver o app.
+
+- ./src/components/ que irão os componentes mais globais (header, footer, etc)
+
+- ./src/pages/ irão os componentes que renderizarão no container principal. É o que a rota mais irá chamar
+
+Note que cada componente possui uma pasta (Ex.: ./src/components/Header). E dentro de cada pasta de componente possui um index.js e um styles.css.
+
+============================================
