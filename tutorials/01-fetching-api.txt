@@ -1,0 +1,7 @@
+Para consumir dados de uma API, vamos usar a biblioteca AXIOS:
+> yarn add axios
+
+Vamos criar uma pasta ./src/services. Aqui ficarão arquivos de qualquer configuração que dê
+acesso a serviços externos.
+
+NEsta pasta criaremos o arquivo api.js e importaremos dentro do App.js
