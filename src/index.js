@@ -1,6 +1,9 @@
-import React from 'react';
+/**
+ * A partir deste arquivo que inicia toda a nossa aplicaÇao
+ */
+
+import React from 'react'; // todo lugar que utilizarmos o html no js
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
